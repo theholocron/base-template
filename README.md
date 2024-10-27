@@ -1,12 +1,11 @@
-# <name>
+# Base Template
 
-<description> used within the Galaxy.
+A base template used within the Galaxy.
 
 ## Installation
 
-```bash
-npm install --save-dev @theholocron/<lib>
-```
+<!-- fill out the installation -->
+``
 
 ## Usage
 
