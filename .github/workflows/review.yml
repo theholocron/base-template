@@ -9,8 +9,8 @@ jobs:
     name: Review PRs
     runs-on: ubuntu-latest
     steps:
-      # - uses: actions/checkout@v4
-      #   name: Checkout repository
+      - uses: actions/checkout@v4
+        name: Checkout repository
 
       # - uses: actions/setup-node@v4
       #   name: Setup Node.js @v20
@@ -31,10 +31,10 @@ jobs:
         with:
           reporter: github-pr-check
 
-      # - uses: reviewdog/action-alex@v1
-      #   name: Check language using Alex
-      #   with:
-      #     reporter: github-pr-check # [github-pr-check,github-check,github-pr-review]
+      - uses: reviewdog/action-alex@v1
+        name: Check language using Alex
+        with:
+          reporter: github-pr-check # [github-pr-check,github-check,github-pr-review]
           # GitHub Status Check won't become failure with warning.
           # level: warning # [info,warning, error]
 
