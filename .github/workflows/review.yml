@@ -31,10 +31,10 @@ jobs:
         with:
           reporter: github-pr-check
 
-      - uses: reviewdog/action-alex@v1
-        name: Check language using Alex
-        with:
-          reporter: github-pr-check # [github-pr-check,github-check,github-pr-review]
+      # - uses: reviewdog/action-alex@v1
+      #   name: Check language using Alex
+      #   with:
+      #     reporter: github-pr-check # [github-pr-check,github-check,github-pr-review]
           # GitHub Status Check won't become failure with warning.
           # level: warning # [info,warning, error]
 
