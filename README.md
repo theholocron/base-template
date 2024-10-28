@@ -5,7 +5,6 @@ A base template used within the Galaxy.
 ## Installation
 
 <!-- fill out the installation -->
-``
 
 ## Usage
 
