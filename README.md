@@ -12,4 +12,4 @@ A base template used within the Galaxy.
 
 ## Documentation
 
-<!-- document the api(s), or how to use with examples -->
+Check out [The Holocron Archive](https://docs.theholocron.dev/projects/base-template/) for more information.
