@@ -1,8 +1,20 @@
 {
   "description": "<description>",
   "homepage": "<homepage>",
-  "repo": {},
-  "workflows": ["lint", "review", "stale", "greetings", "bookkeeping-pr"],
+  "repo": {
+    "name": "theholocron/<name>",
+    "teams": [{ "slug": "gatekeepers", "permission": "maintain" }],
+    "protection": "balanced",
+    "topics": [],
+    "properties": {
+      "lifecycle": "active",
+      "open_source": true,
+      "runtime_environment": "none",
+      "uses_external_packages": false
+    }
+  },
+
+  "workflows": ["lint", "review", "stale", "greetings", "bookkeeping"],
   "providers": { "source": "github" },
   "agent": "claude"
 }
