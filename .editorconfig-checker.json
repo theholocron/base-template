@@ -1,0 +1,24 @@
+{
+  "Version": "v3.7.0",
+  "Verbose": false,
+  "Format": "",
+  "Debug": false,
+  "IgnoreDefaults": false,
+  "SpacesAfterTabs": false,
+  "NoColor": false,
+  "Exclude": [
+    "(^|.+/)LICENSE$",
+    "^public/.*",
+    "^\\.notes/.*\\.spec\\.md$"
+  ],
+  "AllowedContentTypes": [],
+  "PassedFiles": [],
+  "Disable": {
+    "EndOfLine": false,
+    "Indentation": false,
+    "InsertFinalNewline": false,
+    "TrimTrailingWhitespace": false,
+    "IndentSize": false,
+    "MaxLineLength": false
+  }
+}
