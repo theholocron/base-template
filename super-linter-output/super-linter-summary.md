@@ -12,6 +12,6 @@
 
 All files and directories linted successfully
 
-For more information, see the [GitHub Actions workflow run](https://github.com/theholocron/base-template/actions/runs/30775454356)
+For more information, see the [GitHub Actions workflow run](https://github.com/theholocron/base-template/actions/runs/30775528379)
 
 Powered by [Super-linter](https://github.com/super-linter/super-linter)
