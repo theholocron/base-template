@@ -9,7 +9,7 @@
     "properties": {
       "lifecycle": "active",
       "open_source": true,
-      "runtime_environment": "none",
+      "runtime_environment": "<runtime_environment>",
       "uses_external_packages": false
     }
   },
