@@ -1,11 +1,11 @@
 {
-  "description": "<description>",
+  "description": "A modern template with pre-configured tools, best practices, and CI/CD setup for rapid application development.",
   "homepage": "<homepage>",
   "repo": {
-    "name": "theholocron/<name>",
+    "name": "theholocron/base-template",
     "teams": [{ "slug": "gatekeepers", "permission": "maintain" }],
     "protection": "strict",
-    "topics": [],
+    "topics": ["template"],
     "properties": {
       "lifecycle": "active",
       "open_source": true,
