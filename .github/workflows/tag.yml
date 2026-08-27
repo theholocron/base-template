@@ -1,0 +1,11 @@
+name: Tag
+
+on: # yamllint disable-line rule:truthy
+  push:
+    branches:
+      - main
+
+jobs:
+  tag:
+    uses: theholocron/.github/.github/workflows/tag.yml@main
+    secrets: inherit

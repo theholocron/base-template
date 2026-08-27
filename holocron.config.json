@@ -3,9 +3,16 @@
   "homepage": "<homepage>",
   "repo": {
     "name": "theholocron/base-template",
-    "teams": [{ "slug": "gatekeepers", "permission": "maintain" }],
+    "teams": [
+      {
+        "slug": "gatekeepers",
+        "permission": "maintain"
+      }
+    ],
     "protection": "strict",
-    "topics": ["template"],
+    "topics": [
+      "template"
+    ],
     "properties": {
       "lifecycle": "active",
       "open_source": true,
@@ -13,7 +20,16 @@
       "uses_external_packages": false
     }
   },
-  "workflows": ["lint", "review", "stale", "greetings", "bookkeeping"],
-  "providers": { "source": "github" },
+  "workflows": [
+    "lint",
+    "review",
+    "stale",
+    "greetings",
+    "bookkeeping",
+    "tag"
+  ],
+  "providers": {
+    "source": "github"
+  },
   "agent": "claude"
 }
