@@ -20,12 +20,23 @@
       "uses_external_packages": false
     }
   },
-  "workflows": [
-    "lint",
-    "review",
-    "stale",
-    "greetings",
-    "bookkeeping",
+  "tasks": [
+    {
+      "name": "lint:editorconfig",
+      "required": true
+    },
+    {
+      "name": "lint:markdown",
+      "required": true
+    },
+    {
+      "name": "lint:data",
+      "required": true
+    },
+    "annotate",
+    "mark-stale",
+    "greet",
+    "label",
     "tag"
   ],
   "providers": {
